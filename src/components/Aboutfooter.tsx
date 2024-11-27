@@ -2,7 +2,7 @@ import {Circle, Dna, Globe2, Languages} from "lucide-react"
 
 const Aboutfooter = () => {
     const items = [
-        {name:"Language", answer:"English, Chinese Mandarin and Korean", icon:<Languages className="h-11 w-11" />},
+        {name:"Language", answer:"English, Chinese", icon:<Languages className="h-11 w-11" />},
         {name:"Nationality",answer:"China", icon:<Globe2   className="h-8 w-8" />},
         {name:"Gender",answer:"Female", icon:<Dna  className="h-8 w-8" />},
     ]
