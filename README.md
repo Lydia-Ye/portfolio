@@ -1,8 +1,8 @@
 # Project Portfolio
 
-A simple and Beautiful Porfolio made with Nextjs and Shadcn Ui.
+A simple Porfolio made with Nextjs and Shadcn Ui, based on the template from [https://github.com/taqui-786/Portfolio](https://github.com/taqui-786/Portfolio).
 
-![Demo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u7eq68h0uvs6xqgw3yqe.jpeg)
+![Demo](/public/og-image.png)
 
 ## Getting Started
 
