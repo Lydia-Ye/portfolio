@@ -5,7 +5,7 @@ import FramerWrapper from "@/components/animation/FramerWrapper";
 
 export const siteConfig = {
   name: "Zi(Lydia) Ye",
-  description: "I am a undergraduate Computer Science Student.",
+  description: "I am a junior Computer Science and Mathematics Student at Grinnell College.",
 }
 export default function Home() {
   return (
