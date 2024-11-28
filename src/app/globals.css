@@ -98,7 +98,7 @@
   content: "";
     display: block;
     position: absolute;
-    top: 46.7%;
+    top: 15%;
     left: -7px;
     width: 10px;
     height: 10px;
@@ -107,6 +107,7 @@
     outline: 3px solid var(--primary);
     box-shadow: 0 2px 5px 2px #ff859ddf;
 }
+
 /* TEXT ROTATOR STYLES  */
 .animate-text-slide {
   animation: text-slide 12.5s cubic-bezier(0.83, 0, 0.17, 1) infinite;
