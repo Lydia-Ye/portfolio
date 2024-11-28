@@ -1,7 +1,6 @@
 "use client"
 import { cn } from "@/lib/utils";
 
-
 import {
   Briefcase,
   FolderGit2,
@@ -9,19 +8,16 @@ import {
   HomeIcon,
   Mail,
   MoreHorizontal,
- 
   User,
 } from 'lucide-react';
 
 import { Dock, DockIcon, DockItem, DockLabel } from '@/components/animation/DockAnimation';
-
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import FramerWrapper from "./animation/FramerWrapper";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
-
   const data = [
     {
       title: 'Home',
@@ -58,14 +54,6 @@ const Navbar = () => {
       ),
       href: '/projects',
     },
-   
-    {
-      title: 'Contact me',
-      icon: (
-        <Mail className='h-full w-full ' />
-      ),
-      href: '/contact',
-    },
     {
       title: 'More',
       icon: (
@@ -95,7 +83,6 @@ const Navbar = () => {
 
 
   return (
-   
     <div className={`fixed top-5 right-0 left-0 px-0 sm:px-5 m-auto w-full sm:w-fit bg-transparent z-[+9999999] ${scrolling ? "hidden":"block"}`}>
     <Dock className='items-end pb-3 rounded-full'>
       {data.map((item, idx) => (
