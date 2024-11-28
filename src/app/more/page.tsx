@@ -16,17 +16,17 @@ import FramerWrapper from "@/components/animation/FramerWrapper";
 const morePage = () => {
   const morelink = [
     {
-      title: "Dev.to",
+      title: "Weibo",
       description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Dev.to ",
-      link: "https://dev.to/random_ti",
+        "I sometimes write blogs (in Chinese) and share photos on Weibo about things happening in my life :) ",
+      link: "https://weibo.com/u/5621708845",
     },
 
   ];
 
   return (
-    // ABOUT PAGE
-    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
+    // MORE PAGE
+    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-y-auto pt-32">
       <Badge className=" gap-2">
         <PackagePlus className="h-5 w-5" />
         More
